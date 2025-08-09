@@ -10,7 +10,7 @@ import DomainExperience from "./pages/DomainExperience";
 
 export default function App() {
   return (
-    <Router>
+    <Router basename="/portfolio-reactjs-app">
       <Routes>
         <Route path="/" element={<MainPage />} />
         <Route path="/blogs" element={<BlogList />} />
